@@ -112,7 +112,7 @@ val char : char decoder
 *)
 
 val date : Js.Date.t decoder
-(** Decodes an ISO8601-fot\rmatted JSON string into a [Js.Date.t]
+(** Decodes an ISO8601-formatted JSON string into a [Js.Date.t]
     
 {b Returns} a [Js.Date.t] if the JSON value is an IS8601-formatted string.
 
